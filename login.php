@@ -22,16 +22,16 @@
                 <!-- email -->
 
                 <div class="input-group">
-                    <input type="password" name="password" id="password" placeholder="Password">
+                    <input type="password" name="password" id="password" placeholder="Password" required>
                 </div>
                 <!-- password -->
 
                 <div class="remember-forgot">
                     <div class="remember-me">
                         <input type="checkbox" name="remember" id="remember">
-                        <label for="remember">Remember me</label>
+                        <label for="remember" >Remember me</label>
                     </div>
-                    <a href="">Forgot password</a>
+                    <a href="" class="forgot-password">Forgot password</a>
                 </div>
                 <!--remember me and forgot password-->
 
@@ -42,7 +42,7 @@
                     Or Sign In with
                 </div>
                 <div class="picture-google">
-                    <img src="./picture/google.png" alt="logo google" width="20">
+                    <img src="./picture/google.png" alt="logo google">
                 </div>
                 <!--picture google-->
 

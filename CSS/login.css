@@ -65,6 +65,75 @@ input[type="password"]{
     font-size: 16px;
 }
 
+/*pengaturan form checkbox dan link remember me*/
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/*jarak anda checkbox dan tulisan remember me*/
+.remember-me{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/*desain link forgot password*/
+.forgot-password {
+    color: #666;
+    text-decoration: none;
+}
+
+/*desain button sign in*/
+.sign-in-btn{
+    width: 100%;
+    padding: 12px;
+    background-color: #87CEEB;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/*tulisan or sign in with*/
+.divider{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/*pengaturan gambar google*/
+.picture-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+/*ukuran gambar google*/
+.picture-google img{
+    width: 20px;
+}
+
+
+.signup-link{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.signup-link a{
+    color: #0066CC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
 
 
 
